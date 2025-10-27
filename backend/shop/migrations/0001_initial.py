@@ -9,9 +9,7 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-        ("shop", "0001_enable_ltree"),
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
